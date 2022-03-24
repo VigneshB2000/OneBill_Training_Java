@@ -1,6 +1,6 @@
 package com.testyantra.assignment.assignment3.three;
 
-public class Area extends Shape {
+public class Area implements Shape {
 
 	@Override
 	public void RectangleArea(int length, int breadth) {

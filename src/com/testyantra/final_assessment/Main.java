@@ -42,6 +42,7 @@ public class Main extends Student {
 
 		boolean status = true;
 		int selection;
+		try {
 		Scanner sc = new Scanner(System.in);
 
 		while (status) {
@@ -114,7 +115,10 @@ public class Main extends Student {
 
 		sc.close();
 		System.out.println("Thank You...");
-		System.out.println("**********************************************");
-	}
+	
+		}catch(Exception e) {
+			System.out.println("Data Ambiguity...");
+		
+	}}
 
 }

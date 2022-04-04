@@ -13,6 +13,16 @@ public class AddStudent {
 		for(int i = 1;i<=limit;i++) {
 			System.out.println("Enter ID:");
 			int id = sc.nextInt();
+			for(Student s: student) {
+				try {
+				if(s.getId()==id) {
+					throw new MyException("Repetition Exists");
+				}
+			} catch (MyException e) {
+				System.out.println(e.getMessage());
+				return;
+			}
+			}
 			System.out.println("Enter Name: ");
 			String name = sc.next();
 			System.out.println("Enter Course : ");

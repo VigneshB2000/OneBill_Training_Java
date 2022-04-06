@@ -1,4 +1,4 @@
-package com.testyantra.final_assessment;
+package com.testyantra.final_assessment.interview;
 
 
 public class Student implements Comparable<Student> {

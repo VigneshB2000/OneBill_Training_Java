@@ -1,12 +1,12 @@
-package com.testyantra.final_assessment;
+package com.testyantra.final_assessment.interview;
 
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 public class GetStudent {
 	Scanner sc = new Scanner(System.in);
-	GetStudent(LinkedList<Student> student){
+	GetStudent(TreeSet<Student> student){
 		System.out.println("Enter the ID of the Student: ");
 		int getId = sc.nextInt();
 		Iterator<Student> iter = student.iterator();

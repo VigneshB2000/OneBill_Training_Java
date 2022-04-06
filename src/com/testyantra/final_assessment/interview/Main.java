@@ -1,9 +1,9 @@
-package com.testyantra.final_assessment;
+package com.testyantra.final_assessment.interview;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.Map.Entry;
 
 import java.util.Scanner;
@@ -12,7 +12,7 @@ public class Main extends Student {
 
 	public static void main(String[] args) {
 
-		LinkedList<Student> student = new LinkedList<>();
+		TreeSet<Student> student = new TreeSet<>();
 		student.add(new Student(2, "BBB", "Python", 76.0));
 		student.add(new Student(9, "GGG", "CyberSecurity", 90.5));
 		student.add(new Student(3, "JJJ", "Java", 89.2));

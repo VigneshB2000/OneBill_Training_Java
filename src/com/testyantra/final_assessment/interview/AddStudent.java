@@ -1,13 +1,13 @@
-package com.testyantra.final_assessment;
+package com.testyantra.final_assessment.interview;
 
-import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.TreeSet;
 
 public class AddStudent {
 
 	Scanner sc = new Scanner(System.in);
 
-	AddStudent(LinkedList<Student> student) {
+	AddStudent(TreeSet<Student> student) {
 		System.out.println("Enter the number of students to be added: ");
 		int limit = sc.nextInt();
 		System.out.println("Enter the student details in order of ID, Name, Course, Marks");
